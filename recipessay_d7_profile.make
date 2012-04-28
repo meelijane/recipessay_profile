@@ -32,6 +32,10 @@ projects[base_d7_profile][download][url] = "git://github.com/godel-design/base_d
 ; libraries[example][download][url] = "http://example.com/example.tar.gz"
 ; libraries[example][directory_name] = "example"
 ; libraries[example][destination] = "modules/contrib/example"
+libraries[example][download][type] = "get"
+libraries[example][download][url] = "http://leafo.net/lessphp/src/lessphp-0.3.4-2.tar.gz"
+libraries[example][directory_name] = "lessphp"
+
 
 ; --Contrib--
 

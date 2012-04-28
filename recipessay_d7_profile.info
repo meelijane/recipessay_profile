@@ -1,4 +1,4 @@
-name = recipessay_d7 profile
+name = recipessay_d7_profile
 description = A template for a working Drupal 7 Install Profile that can be easily extended for clients.
 core = 7.x
 
