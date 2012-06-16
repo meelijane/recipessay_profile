@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * template_d7_global.features.filter.inc
+ * recipessay_global.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function template_d7_global_filter_default_formats() {
+function recipessay_global_filter_default_formats() {
   $formats = array();
 
   // Exported format: Wysiwyg basic

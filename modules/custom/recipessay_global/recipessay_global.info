@@ -1,4 +1,4 @@
-name = template_d7_global
+name = recipessay_global
 description = Global Distro Feature - Clone & Namespace me before using
 core = 7.x
 version = 1.x-dev

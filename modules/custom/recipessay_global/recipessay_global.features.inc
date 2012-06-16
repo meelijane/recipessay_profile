@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * template_d7_global.features.inc
+ * recipessay_global.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function template_d7_global_ctools_plugin_api() {
+function recipessay_global_ctools_plugin_api() {
   list($module, $api) = func_get_args();
   if ($module == "context" && $api == "context") {
     return array("version" => "3");

@@ -699,7 +699,7 @@ class lessc {
 	}
 
 	// consume a list of property values delimited by ; and wrapped in ()
-	function argumentValues(&$args, $delim = ',') {
+	function argumentValues(&$args, $delim = ';') {
 		$s = $this->seek();
 		if (!$this->literal('(')) return false;
 
@@ -725,7 +725,7 @@ class lessc {
 	// consume an argument definition list surrounded by ()
 	// each argument is a variable name with optional value
 	// or at the end a ... or a variable named followed by ...
-	function argumentDef(&$args, &$is_vararg, $delim = ',') {
+	function argumentDef(&$args, &$is_vararg, $delim = ';') {
 		$s = $this->seek();
 		if (!$this->literal('(')) return false;
 

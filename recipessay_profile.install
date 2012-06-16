@@ -6,7 +6,7 @@
 /**
  * Adapted from drupal_rewrite_settings() to build something Aegir friendly
  */
-function template_d7_profile_write_local_settings($settings = array()) {
+function recipessay_profile_write_local_settings($settings = array()) {
   drupal_static_reset('conf_path');
   $settings_file = conf_path(FALSE) . '/' . 'local.settings.php';
 
@@ -27,7 +27,7 @@ function template_d7_profile_write_local_settings($settings = array()) {
 /**
  * Implements hook_install()
  */
-function template_d7_profile_install() {
+function recipessay_profile_install() {
   // Our custom setup code for anything we can't manage through the info file
   
   /* write some settings for filecache into our local settings file */
@@ -36,5 +36,5 @@ function template_d7_profile_install() {
   $settings['conf[\'cache_default_class\']'] = 'DrupalFileCache';
   $settings['conf[\'filecache_directory\']'] = '/tmp/filecache-' . substr(conf_path(), 6);
 
-  template_d7_profile_write_local_settings($settings);
+  recipessay_profile_write_local_settings($settings);
 }

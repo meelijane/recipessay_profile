@@ -4,7 +4,7 @@ KIT Specification can be found at http://drupal.org/project/kit
 
 Things this module contains:
 
-- Snippet in template_d7_global.module to automatically include .inc files in ./includes based on currently enabled modules
+- Snippet in recipessay_global.module to automatically include .inc files in ./includes based on currently enabled modules
 - New path registered and strongarm variable to create a "blank slate" front page
 - User Roles and Permissions that attempt to get Core behaving something more like Wordpress out of the box http://codex.wordpress.org/Roles_and_Capabilities, since by default Drupal comes with... nothing
 - Basic WYSIWYG Profile configuration + Associated filter

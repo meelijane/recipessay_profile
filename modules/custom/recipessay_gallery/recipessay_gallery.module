@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the recipessay_gallery feature.
+ */
+
+include_once 'recipessay_gallery.features.inc';

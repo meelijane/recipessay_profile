@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * template_d7_global.features.wysiwyg.inc
+ * recipessay_global.features.wysiwyg.inc
  */
 
 /**
  * Implements hook_wysiwyg_default_profiles().
  */
-function template_d7_global_wysiwyg_default_profiles() {
+function recipessay_global_wysiwyg_default_profiles() {
   $profiles = array();
 
   // Exported profile: wysiwyg_basic

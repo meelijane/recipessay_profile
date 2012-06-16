@@ -71,7 +71,7 @@ function do_not_revert__strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'features_codecache';
   $strongarm->value = array(
-    'template_d7_global' => array(
+    'recipessay_global' => array(
       'variable' => '9f4e969c747cd34a9c81a30650dd10bd',
       'filter' => '0a6f2e2b49404858093f1c20fee76b78',
       'user_permission' => 'b2fdbac882c1c82a83f83b5ac100db57',
@@ -119,7 +119,7 @@ function do_not_revert__strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'install_profile';
-  $strongarm->value = 'template_d7_profile';
+  $strongarm->value = 'recipessay_profile';
   $export['install_profile'] = $strongarm;
 
   $strongarm = new stdClass();

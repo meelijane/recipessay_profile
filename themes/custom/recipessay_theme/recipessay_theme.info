@@ -1,4 +1,4 @@
-name = template_d7_theme
+name = recipessay_theme
 description = This theme is a starter kit built on Omega + The LESS CSS Framework + Some custom framework stuff for working with In Design
 core = 7.x
 version = 1.x-dev

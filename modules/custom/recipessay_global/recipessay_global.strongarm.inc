@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * template_d7_global.strongarm.inc
+ * recipessay_global.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function template_d7_global_strongarm() {
+function recipessay_global_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
@@ -406,7 +406,7 @@ function template_d7_global_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'template_d7_theme';
+  $strongarm->value = 'recipessay_theme';
   $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();

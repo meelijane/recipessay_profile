@@ -1,4 +1,4 @@
-name = template_d7_gallery
+name = recipessay_gallery
 description = A simple node-per-gallery style image gallery that leverages Image Editor and Plupload
 core = 7.x
 version = 1.x-dev

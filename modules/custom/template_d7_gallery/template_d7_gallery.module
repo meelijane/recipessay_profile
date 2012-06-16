@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the template_d7_gallery feature.
- */
-
-include_once 'template_d7_gallery.features.inc';

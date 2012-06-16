@@ -1,13 +1,13 @@
-<?php
+recipessay<?php
 /**
  * @file
- * template_d7_gallery.strongarm.inc
+ * recipessay_gallery.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function template_d7_gallery_strongarm() {
+function recipessay_gallery_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * template_d7_global.features.user_role.inc
+ * recipessay_global.features.user_role.inc
  */
 
 /**
  * Implements hook_user_default_roles().
  */
-function template_d7_global_user_default_roles() {
+function recipessay_global_user_default_roles() {
   $roles = array();
 
   // Exported role: administrator.

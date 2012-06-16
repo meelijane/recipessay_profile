@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * template_d7_gallery.features.user_permission.inc
+ * recipessay_gallery.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function template_d7_gallery_user_default_permissions() {
+function recipessay_gallery_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: create gallery_gallery content.

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * template_d7_gallery.features.field.inc
+ * recipessay_gallery.features.field.inc
  */
 
 /**
  * Implements hook_field_default_fields().
  */
-function template_d7_gallery_field_default_fields() {
+function recipessay_gallery_field_default_fields() {
   $fields = array();
 
   // Exported field: 'node-gallery_gallery-field_gallery_images'
