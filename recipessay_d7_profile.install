@@ -1,0 +1,8 @@
+<?php
+/**
+ * @file
+ */
+
+function recipessay_d7_install() {
+  // Our custom setup code for anything we can't manage through the info file
+}
