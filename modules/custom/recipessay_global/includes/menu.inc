@@ -26,6 +26,12 @@ $items['blog'] = array(
     'access callback' => TRUE, // Assume most use-cases require all users to see the front page
     'type' => MENU_CALLBACK,
   );
+$items['contact'] = array(
+    'title' => 'Recipessay | Contact', // Will likely be overriden by page_title module
+    'page callback' => 'recipessay_blank_page',
+    'access callback' => TRUE, // Assume most use-cases require all users to see the front page
+    'type' => MENU_CALLBACK,
+  );
   
   return $items;
 }
