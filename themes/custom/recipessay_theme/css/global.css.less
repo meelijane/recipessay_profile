@@ -1,7 +1,8 @@
 .block-recipessay-favs-block.block-views-recipessay-favs-block {
 	width:280px;
 	display:block;
-	border: 1px solid #d66a6a;
+	background-color:rgba(255, 255, 255, 0.8);
+	border: 2px solid #d66a6a;
 	.view-content {
 					width:240px;
 					display:block;
@@ -9,7 +10,10 @@
 	h2 {
 		display:block;
 		margin: 0 auto;
-		width: 3em;
+		width: 240px;
+		line-height:2em;
+		font-family: Helvetica;
+		font-size: 2em;
 	}
 }
 
@@ -17,8 +21,21 @@
 	width:680px!important;
 }
 
+#page {
+	background-image: url('img/watercolor.jpg');
+	background-attachment: fixed;
+}
+
 #region-sidebar-first {
 	width:280px!important;
+}
+
+.region-branding-inner {
+	width: 100%;
+	background-color:rgba(255, 255, 255, 0.8);
+	margin-top: 20px;
+	margin-bottom:20px;
+	border: 2px solid #d66a6a;
 }
 
 #region-content {
@@ -33,10 +50,11 @@
 		}
 	li {
 		margin: 0;
-		border: 1px solid #d66a6a;
+		border: 2px solid #d66a6a;
 		padding: 20px;
 		float:left;
 		margin-bottom: 20px;
+		background-color:rgba(255, 255, 255, 0.8);
 		}
 }
 
@@ -55,13 +73,17 @@
 	display:none;
 }
 
+h2 {
+	margin-bottom: 5px!important;
+	font-family: Helvetica;
+	margin-top: 5px!important;
+}
+
 body {
 	background-color: #f0f0e6;
 }
 
-h2 {
-	font-size: 3em!important;
-}
+
 
 #favourites_wrapper {
 	margin-bottom: 20px;
@@ -76,17 +98,26 @@ a:link, a:visited {
 .node-blog-entry.view-mode-full {
 	width: 640px;
 	float:left;
-	margin-left:20px;
+	margin-left:10px;
+	background-color:rgba(255, 255, 255, 0.8);
+	border: 2px solid #d66a6a;
 	.field-name-field-blog-image {
 		padding-bottom: 20px;}
 }
 
-.breadcrumb>a {
-	font-size: 2em;
+.breadcrumb {
+	display:none;
 }
 
+
+.field-name-field-blog-image {
+	width: 600px;
+	margin: 0 auto;
+}
 .field-name-title, .field-name-blog-image, .field-name-post-date, .field-name-author, .field-name-body, .field-name-sharing, #comments {
 	float:left!important;
+	width: 600px;
+	padding-left:20px;
 }
 
 .field-name-author {
@@ -95,10 +126,23 @@ a:link, a:visited {
 }
 
 .block-recipessay-about {
-	border: 1px solid #d66a6a;
+	border: 2px solid #d66a6a;
 	margin-bottom: 20px;
+	.content.clearfix {
+		background-color:rgba(255, 255, 255, 0.8); }
 .pane-content {
 	width: 240px;
 	margin: 0 auto;
 	padding: 20px 0;
 } }
+
+
+.block-panels-mini-recipessay-contact-block {
+	width: 640px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 2px solid #d66a6a;
+	.content {
+		width: 600px;
+		margin: 0 auto;
+		padding-bottom: 20px;}
+}
