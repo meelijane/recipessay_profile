@@ -439,7 +439,7 @@ function recipessay_global_field_default_fields() {
           'fotoflexer_enabled' => 0,
           'fotoflexer_position' => '0',
           'imageeditor_icons_position' => '0',
-          'imageeditor_replace' => 0,
+          'imageeditor_replace' => 1,
           'imageshack_upload_enabled' => 0,
           'imageshack_upload_position' => '0',
           'immio_upload_enabled' => 0,
