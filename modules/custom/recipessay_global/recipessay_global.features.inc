@@ -43,7 +43,7 @@ function recipessay_global_fontyourface_features_default_font() {
       'enabled' => '1',
       'url' => 'http://www.fontsquirrel.com/fonts/Quicksand',
       'provider' => 'fontsquirrel',
-      'css_selector' => 'body',
+      'css_selector' => '',
       'css_family' => 'QuicksandLight',
       'css_style' => '',
       'css_weight' => '',

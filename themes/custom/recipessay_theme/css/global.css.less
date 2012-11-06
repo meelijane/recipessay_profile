@@ -1,4 +1,9 @@
-.block-recipessay-favs-block.block-views-recipessay-favs-block {
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow);
+
+html {
+	body {
+	.block-recipessay-favs-block.block-views-recipessay-favs-block {
 	width:280px;
 	display:block;
 	background-color: rgba(255, 255, 255, 255);
@@ -6,15 +11,35 @@
 	.view-content {
 					width:240px;
 					display:block;
-					margin: 0 auto; }
+					margin: 0 auto;
+				}
 	h2 {
 		display:block;
 		margin: 0 auto;
 		width: 240px;
 		line-height:2em;
-		font-family: Helvetica;
-		font-size: 2em;
+		font-family: 'Jacques Francois Shadow';
+		font-size: 32px!important;
+		font-weight: normal!important;
 	}
+}
+}
+}
+
+#mini-panel-recipessay_about {
+	h2 {
+		display:block;
+		margin: 0 auto;
+		width: 240px;
+		line-height:2em;
+		font-family: 'Jacques Francois Shadow';
+		font-size: 32px!important;
+		font-weight: normal!important;
+	}
+}
+
+p, span {
+	font-family: 'Jacques Francois';
 }
 
 .container-12 .grid-6 {
@@ -22,9 +47,15 @@
 }
 
 #page {
-	background-image: url('img/recipessay_base.jpg');
-	background-size: 100%;
-	background-attachment: scroll;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background: url(img/marble.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
 }
 
 #region-sidebar-first {
@@ -32,10 +63,10 @@
 }
 
 .region-branding-inner {
-	width: 100%;
+  width: 100%;
 	background-color: rgba(255, 255, 255, 255);
 	margin-bottom:20px;
-	border-bottom: 24px solid grey;
+	border-bottom: 11px solid black;
 	border-style: double;
 	/* border: 2px solid #d66a6a; */
 }
@@ -48,7 +79,7 @@
 	ul {
 		width: 640px;
 		display: block;
-		margin: 0 auto		
+		margin: 0 auto
 		}
 	li {
 		margin: 0;
@@ -64,7 +95,7 @@
 }
 
 #block-panels-mini-recipessay-branding {
-	width: 457px;
+	width: 710px;
 	margin: 0 auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -74,14 +105,30 @@
 	display:none;
 }
 
-h2 {
-	margin-bottom: 5px!important;
-	font-family: Helvetica;
-	margin-top: 5px!important;
-}
+html {
+	body {
+		#page {
+			h2 {
+			margin-bottom: 5px!important;
+			font-family: 'Jacques Francois Shadow';
+			margin-top: 5px!important;
+			font-size: 45px;
+			font-weight: normal;
+			a {
+				font-weight: normal;
+			}
+			}
+			}
+		}
+	}
+
 
 body {
 	background-color: #f0f0e6;
+	font-size: 14px;
+	a {
+		font-weight: bold;
+	}
 }
 
 
@@ -108,6 +155,14 @@ a:link, a:visited {
 
 .breadcrumb {
 	display:none;
+}
+
+.view-recipessay-blog.view-id-recipessay_blog {
+.views-field-view-node {
+	a {
+		float: right;
+	}
+}
 }
 
 
@@ -158,7 +213,7 @@ a:link, a:visited {
 #block-panels-mini-recipessay-specials {
 	background-color: rgba(255, 255, 255, 255);
 	padding: 20px 0 20px 0;
-	
+
 	img {
 		/* border: 2px solid #d66a6a; */ }
 		.lemon, .worthit {
@@ -171,7 +226,7 @@ a:link, a:visited {
 	padding-top:20px;
 	li {
 		padding-top:20px; }
-	
+
 }
 
 .container-12 {

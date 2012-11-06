@@ -26,12 +26,6 @@ function recipessay_global_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'panels_mini-recipessay_specials' => array(
-          'module' => 'panels_mini',
-          'delta' => 'recipessay_specials',
-          'region' => 'content',
-          'weight' => '-10',
-        ),
         'views-recipessay_blog-block_1' => array(
           'module' => 'views',
           'delta' => 'recipessay_blog-block_1',

@@ -99,7 +99,7 @@ function recipessay_global_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="/"><img src="/profiles/recipessay_profile/themes/custom/recipessay_theme/css/img/recipessay_branding.png"></a>',
+      'body' => '<a href="/"><img src="/profiles/recipessay_profile/themes/custom/recipessay_theme/css/img/recipessay_branding2.png"></a>',
       'format' => 'php_code',
       'substitute' => TRUE,
     );
