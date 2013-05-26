@@ -38,6 +38,15 @@ libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profi
 ; projects[example][version] = "3.9"
 ; projects[example][subdir] = "contrib"
 
+projects[fontyourface][version] = "2.3"
+projects[fontyourface][subdir] = "contrib"
+
+projects[sharethis][version] = "2.4"
+projects[sharethis][subdir] = "contrib"
+
+projects[insert][version] = "1.3"
+projects[insert][subdir] = "contrib"
+
 ; Dev Snapshot
 
 ; projects[example][download][type] = "git"
